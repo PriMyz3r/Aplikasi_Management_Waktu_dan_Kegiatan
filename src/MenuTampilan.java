@@ -6,7 +6,7 @@ class MenuTampilan extends Tampilan{
     @Override
     public void menu() {
         Date date = new Date();
-        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yy");
+        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
         String datenow = formatter.format(date);
         System.out.println("\n==============================================================");
         System.out.println("TANGGAL HARI INI : " + datenow);
